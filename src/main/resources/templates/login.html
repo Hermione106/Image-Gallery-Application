@@ -32,8 +32,10 @@
 
     <div class="container">
 
-      <form class="form-signin" method="get" action="/images">
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in with Twitter</button>
+      <form class="form-signin" method="get" action="https://github.com/login/oauth/authorize">
+      <!--<form class="form-signin" method="get" action="https://github.com/login/">-->
+      	<!--<input type="hidden" name="client_id" value="3fb27527ef418dacefd9"/>-->
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name="client_id" value="3fb27527ef418dacefd9">Sign in with Twitter</button>
       </form>
 
     </div> <!-- /container -->
